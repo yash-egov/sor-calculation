@@ -1,0 +1,71 @@
+/* src/styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .searchString{
+    display: flex;
+    justify-content: center;
+  }
+
+  .searchString > input{
+      width: 50vw;
+  }
+
+  table {
+    width: 100%;
+    margin: 20px 0;
+    
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    
+  }
+  
+  
+ 
+  .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    
+   }
+
+   .buttons button{
+    background-color: green;
+   }
+
+   .deleteButton {
+     background-color: red;
+     color: white;
+   }
+   
+   .deleteButton  :hover{
+    cursor: pointer;
+   }
+
+ .nav_button{
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+ }
+
